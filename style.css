@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('gradient.jpg');
+    background-size: cover;
+}
+
+.btn{
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.font{
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(214, 214, 214);
+}
